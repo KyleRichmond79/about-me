@@ -8,14 +8,14 @@ body {
 
 h1 {
   color: chartreuse;
-  font-family: coda; roboto; san-serif;
+  font-family: coda, roboto, san-serif;
   font-size: 64pt;
   align-content: center;
 }
 
 p {
   font-size: 24pt;
-  font-family: coda; roboto; san-serif;
+  font-family: coda, roboto, san-serif;
   color: mediumblue;
 }
 
