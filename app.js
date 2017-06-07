@@ -8,6 +8,7 @@ var whereFrom = prompt('Let\'s play a game! Am I originally from Seattle? Yes or
 }         else {
             alert('I didn\'t recognize your response.');
 }
+
 var likePc = prompt('Do I like to use Pc/Android devices? Yes or No').toLowerCase();
   if (likePc === 'yes' || likePc === 'y') {
     alert('Correct!');
