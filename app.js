@@ -141,3 +141,7 @@ console.log('Asked my second question do I like Pc and have an if/else if/else s
 console.log('Asked my third question if I liked music and have an if/else if/else statement to alert if correct or not');
 console.log('Asked my fourth question do I eat meat and have an if/else if/else statement to alert if correct or not');
 console.log('Asked my final question do I play games and have an if/else if/else statement to alert if correct or not');
+console.log('Created a question using a while loop to guess my favorite number with a limit of 4 tries.');
+console.log('Created a question to guess which states I have lived in with a limit of 6 guesses.');
+console.log('Created a variable to collec total right answers and an alert to tell the user how many they got correct.' );
+console.log('Created functions with Issac during pair programming project.');
