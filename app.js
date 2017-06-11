@@ -1,6 +1,18 @@
 'use strict';
 
 var rightAnswers = 0;
+//Initial question for game sequence
+function initQuestion() {
+  var playAGame = prompt('Would you like to play a game? Yes or No').toLowerCase();
+  if (playAGame === 'yes' || playAGame === 'y') {
+    alert('Excellent! Let\'s begin!');
+  } else if (playAGame === 'no' || playAGame === 'n') {
+    alert('Too bad you have to play anyway!');
+  } else {
+    alert('I didn\'t recognize your response.');
+  }
+}
+
 //Question 1
 function question1() {
   var whereFrom = prompt('Let\'s play a game! Am I originally from Seattle? Yes or No').toLowerCase();
@@ -13,6 +25,7 @@ function question1() {
     alert('I didn\'t recognize your response.');
   }
 }
+console.log('Asked if user wanted to play a game and asked where am I from and have an if/else if/else statement to alert if correct or not');
 
 //Question 2
 function question2() {
@@ -26,6 +39,7 @@ function question2() {
     alert('I didn\'t recognize your response.');
   }
 }
+console.log('Asked my second question do I like Pc and have an if/else if/else statement to alert if correct or not');
 
 //Question 3
 function question3() {
@@ -39,6 +53,7 @@ function question3() {
     alert('I didn\'t recognize your response.');
   }
 }
+console.log('Asked my third question if I liked music and have an if/else if/else statement to alert if correct or not');
 
 //Question 4
 function question4() {
@@ -52,6 +67,7 @@ function question4() {
     alert('I didn\'t recognize your response.');
   }
 }
+console.log('Asked my fourth question do I eat meat and have an if/else if/else statement to alert if correct or not');
 
 //Question 5
 function question5() {
@@ -65,6 +81,7 @@ function question5() {
     alert('I didn\'t recognize your response.');
   }
 }
+console.log('Asked my fifth question do I play games and have an if/else if/else statement to alert if correct or not');
 //Sam said "Here's a hint for Question 6: "While the total number of guesses is less than 4,
 //ask the user to guess your secret number and check whether the user has provided the correct answer;
 //if they were wrong, tell them whether they guessed too high or too low.
@@ -96,6 +113,8 @@ function question6() {
     alert('Sorry, you didn\'t get guess 27.');
   }
 }
+console.log('Created a question using a while loop to guess my favorite number with a limit of 4 tries.');
+
 //multiple correct answers should be in an array
 //if (guess = ans[a] || ans[b] || ans[c] || ans[d]) {alert('WAY TO GO!') }
 //var guess;
@@ -126,6 +145,10 @@ function question7() {
     }
   }
 }
+console.log('Created a question to guess which states I have lived in with a limit of 6 guesses.');
+console.log('Created functions with Issac during pair programming project.');
+console.log('Created a variable to collec total right answers and an alert to tell the user how many they got correct.' );
+
 question1();
 question2();
 question3();
@@ -135,13 +158,3 @@ question6();
 question7();
 
 alert('You got ' + rightAnswers + ' correct! Nice Job!');
-
-console.log('Asked if user wanted to play a game and asked where am I from and have an if/else if/else statement to alert if correct or not');
-console.log('Asked my second question do I like Pc and have an if/else if/else statement to alert if correct or not');
-console.log('Asked my third question if I liked music and have an if/else if/else statement to alert if correct or not');
-console.log('Asked my fourth question do I eat meat and have an if/else if/else statement to alert if correct or not');
-console.log('Asked my final question do I play games and have an if/else if/else statement to alert if correct or not');
-console.log('Created a question using a while loop to guess my favorite number with a limit of 4 tries.');
-console.log('Created a question to guess which states I have lived in with a limit of 6 guesses.');
-console.log('Created a variable to collec total right answers and an alert to tell the user how many they got correct.' );
-console.log('Created functions with Issac during pair programming project.');
