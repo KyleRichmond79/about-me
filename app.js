@@ -1,17 +1,6 @@
 'use strict';
 
 var rightAnswers = 0;
-//Initial question for game sequence
-function initQuestion() {
-  var playAGame = prompt('Would you like to play a game? Yes or No').toLowerCase();
-  if (playAGame === 'yes' || playAGame === 'y') {
-    alert('Excellent! Let\'s begin!');
-  } else if (playAGame === 'no' || playAGame === 'n') {
-    alert('Too bad you have to play anyway!');
-  } else {
-    alert('I didn\'t recognize your response.');
-  }
-}
 
 //Question 1
 function question1() {
@@ -109,7 +98,7 @@ function question6() {
       alert('I didn\'t recognize your response.');
     }
   }
-  if(isWrong === true) {
+  if (isWrong === true) {
     alert('Sorry, you didn\'t get guess 27.');
   }
 }
@@ -147,7 +136,7 @@ function question7() {
 }
 console.log('Created a question to guess which states I have lived in with a limit of 6 guesses.');
 console.log('Created functions with Issac during pair programming project.');
-console.log('Created a variable to collec total right answers and an alert to tell the user how many they got correct.' );
+console.log('Created a variable to collec total right answers and an alert to tell the user how many they got correct.');
 
 question1();
 question2();
